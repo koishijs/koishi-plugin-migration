@@ -12,7 +12,7 @@ export default (ctx: Context) => {
     icon: 'migration',
     order: 650,
     authority: 4,
-    fields: ['dependencies'],
+    fields: ['migration'],
     component: Migration,
   })
 }
